@@ -4,12 +4,10 @@
  */
 package prgitejemplo;
 
-/*
- * @author bertoa, azahar
+/**
+ *
+ * @author bertoa
  */
-
-//Añado esta linea en la rama testing
-
 public class GitAux {
     
     public void metodoAlumno1(){
@@ -17,11 +15,20 @@ public class GitAux {
     }
     
     public void metodoAlumno2(){
+        // Modificado por SilvioMS
         System.out.println("metodo 2");
     }
     
     public void metodoComunitario(){
         System.out.println("Aqui escribimos todos");
+        // Modicaciones SilvioMS
+        System.out.println("SilvioMS inserta esta sentencia");
+
+        
     }
-//Añado esta linea con un comentario
+    public void testGitAux(){
+        // metodo rama testing
+        System.out.println("Metodo de testing");
+	}
 }
+
